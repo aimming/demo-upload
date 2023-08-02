@@ -1,0 +1,12 @@
+{
+    "name": "ainam/demo-upload",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ainam\\DemoUpload\\": "src/"
+        }
+    },
+    "require": {
+        "microsoft/azure-storage-blob": "*"
+    }
+}
