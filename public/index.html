@@ -6,8 +6,8 @@
 </head>
 <body>
   <form id="uploadForm" method="post" enctype="multipart/form-data">
-    <input type="file" id="fileInput" name="file">
-    <input type="submit" value="Upload File">
+    <input type="file" id="archivo" name="archivo" accept=".pdf,.doc,.docx" onchange="validarArchivo(event)" />
+    <button type="submit" onclick="cargarArchivo(event)">Cargar Archivo</button>
   </form>
   <p id="message"></p>
 
